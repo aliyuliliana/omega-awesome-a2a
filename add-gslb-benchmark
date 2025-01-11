@@ -1,0 +1,30 @@
+# File: graph-learning/gslb-benchmark.md
+
+## GSLB: Graph Structure Learning Benchmark
+
+### Overview
+A comprehensive benchmarking framework that evaluates Graph Structure Learning (GSL) methods across 16 distinct algorithms and 20 diverse datasets, focusing on AI-to-AI communication optimization through graph structures.
+
+### Technical Implementation
+```python
+# Core benchmark implementation example
+from gslb import GSLBenchmark, Evaluator
+
+class GSLBEvaluator:
+    def __init__(self):
+        self.benchmark = GSLBenchmark(
+            algorithms=['homogeneous', 'heterogeneous'],
+            datasets=['node_level', 'graph_level']
+        )
+        
+    def evaluate_model(self, model, task_type):
+        metrics = {
+            'effectiveness': self.benchmark.evaluate_effectiveness(model),
+            'robustness': self.benchmark.evaluate_robustness(model),
+            'complexity': self.benchmark.evaluate_complexity(model)
+        }
+        return metrics
+
+# Usage example
+evaluator = GSLBEvaluator()
+results = evaluator.evaluate_model(model, 'node_classification')
