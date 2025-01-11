@@ -1,0 +1,34 @@
+# Dialogue Director: Advanced A2A Visual Understanding Framework
+
+## Overview
+A training-free multimodal framework demonstrating sophisticated A2A communication through specialized AI agents collaborating on dialogue visualization tasks.
+
+## Technical Details
+### Architecture
+- Script Director: Text understanding and scene interpretation
+- Cinematographer: Visual composition and scene planning
+- Storyboard Maker: Final visualization generation
+
+### Implementation Highlights
+- Training-free multimodal framework
+- Chain-of-Thought reasoning
+- Retrieval-Augmented Generation (T-RAG, I-RAG, K-RAG)
+- Multi-view synthesis capabilities
+
+### Performance Metrics
+- NIQE Score: 3.78 (↓ better)
+- CLIP-T Score: 0.2240 (↑ better)
+- Outperforms baseline OmniGen significantly
+- Human evaluation validated by 30 film students
+
+## A2A Significance
+1. Demonstrates effective multi-agent collaboration
+2. Plug-and-play compatibility with existing systems
+3. Novel approach to complex task decomposition
+4. Validated performance metrics
+
+## Code Implementation
+[Include relevant code snippets or implementation details]
+
+## References
+[Paper citation and links]
